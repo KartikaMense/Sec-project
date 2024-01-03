@@ -1,0 +1,12 @@
+<!doctype html>
+<html>
+<body>
+<script>
+  var i, n=5, sum=0;
+  arr = new Array(12, 14, 18, 20, 22, 24);
+  for(i=0; i<6; i++)
+    sum = sum + arr[i];
+  document.write(sum);
+</script>
+</body>
+</html>
